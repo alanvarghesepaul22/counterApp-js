@@ -8,6 +8,9 @@ function increment() {
 }
 
 function save() {
+  if(count==22){
+    window.location="./index1.html"
+  }
   prevEntries.textContent += count + " - ";
   counterEl.textContent = 0;
   count = 0;
